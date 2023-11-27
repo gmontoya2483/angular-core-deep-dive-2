@@ -5,9 +5,13 @@
 
 </div>
 
+<div class="course-card">
+  Test Card
+
+</div>
 
 
-<div class="courses" *ngIf="courses[0] as course">
+<div class="courses salmon-theme" *ngIf="courses[0] as course">
 
     <course-card highlighted #highlighter='hl'
                  (toggleHighLight)="onToggle($event)"
